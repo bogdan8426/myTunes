@@ -12,5 +12,12 @@ myTunes web app is a personal open source project. It is a java based applicatio
 
 ![Image of MVC](https://i.imgur.com/90JjzgO.png)
 
+## 1. DESIGN
+The basic application will have the following requirements:
+* <b>Welcome Page</b> - accesing the website will lead to this web page. It centrally prints "Welcome to myTunes" with the myTunes logo, loads the page or waits for 2 seconds, and then redirects to the myTunes Dashboard
+* <b>myTunes Dashboard</b> - a dynamic dashboard on the left and in the center a short description of the website, author, credits, year and so on.
+* <b>Artists</b> - a section from the dashboard showing no_artists clickable blocks havinga photo and a name. Clicking will lead to the Albums section filtered only for that artist.
+* <b>Albums</b> - a section from the dashboard showing same principle as Artists. On click will dropdown to a list of songs
+
 ## User Interface Design
 ![Image of UI Design](https://raw.githubusercontent.com/WebToLearn/fx-trading-app/master/Week_03/Exercise/Img/Assets-VD.png)
