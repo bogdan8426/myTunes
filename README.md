@@ -1,5 +1,5 @@
 # myTunes
-myTunes web app is a personal open source project. It is a java based application used to purchase songs or albums from various artists.
+myTunes is a java based web application built as an open-source personal project.
 
 ## Technologies used
 * Java 8
