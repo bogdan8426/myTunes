@@ -23,7 +23,7 @@ The basic application will have the following requirements:
 ### User Interface Design
 ![Image of UI Design](https://raw.githubusercontent.com/WebToLearn/fx-trading-app/master/Week_03/Exercise/Img/Assets-VD.png)
 
-### Web pages design using Adobe UX
+### Web pages design using Adobe XD
 ![Image of WelcomePage](https://i.imgur.com/Y7UhtEK.png)
 ![Image of Dashboard](https://i.imgur.com/615HGUA.png)
 ![Image of ArtistsPage](https://i.imgur.com/qNPuxn4.png)
