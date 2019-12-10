@@ -13,6 +13,6 @@ myTunes web app is a personal open source project. It is a java based applicatio
 
 ![Image of MVC](https://i.imgur.com/90JjzgO.png)
 
-## 1. DESIGN - https://github.com/bogdan8426/myTunes/tree/bogdan8426-branch-02
+## 1. [Design](https://github.com/bogdan8426/myTunes/tree/bogdan8426-branch-02)
 
-## 2. Architecture - https://github.com/bogdan8426/myTunes/tree/bogdan8426-branch-03
+## 2. [Architecture](https://github.com/bogdan8426/myTunes/tree/bogdan8426-branch-03)
