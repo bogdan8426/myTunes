@@ -8,6 +8,11 @@ myTunes is a java based web application built as an open-source personal project
 * Mongo DB
 * Adobe XD
 
+## Contents
+Theory: [The MVC Design pattern](https://github.com/bogdan8426/myTunes#the-mvc-design-pattern)
+1. [Design](https://github.com/bogdan8426/myTunes#1-design)
+2. [Architecture](https://github.com/bogdan8426/myTunes#2-architecture)
+
 ## The MVC Design pattern
 ><b>Model–View–Controller</b> (usually known as MVC) is a software design pattern commonly used for developing user interfaces which divides the related program logic into three interconnected elements. This is done to separate internal representations of information from the ways information is presented to and accepted from the user. Following the MVC architectural pattern decouples these major components allowing for code reuse and parallel development.
 
@@ -47,7 +52,7 @@ The Angular CLI is a command-line interface tool that you use to initialize, dev
 #### Webpack
 At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles.
 
-#### Spring
+### Spring
 Spring is a framework for the Java platform comprising many modules. Among them are Spring Core, Spring Security and Spring Data.
 * allows for more modular and loosely coupled code
 * allows for easier testing
