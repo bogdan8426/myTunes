@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./welcome-page.component.css']
 })
 export class WelcomePageComponent implements OnInit {
+  message: string;
 
-  constructor() { }
+  constructor() {
+    this.message = 'Welcome to myTunes!';
+  }
 
   ngOnInit() {
   }
