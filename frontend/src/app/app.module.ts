@@ -9,12 +9,14 @@ import { ArtistsPageComponent } from './pages/artists-page/artists-page.componen
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ToastrModule} from 'ngx-toastr';
 import {BsDatepickerModule} from 'ngx-bootstrap';
+import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
 
 const appRoutes: Routes = [
   {path: '', redirectTo: '/welcome', pathMatch: 'full'},
   {path: 'welcome', component: WelcomePageComponent},
   {path: 'dashboard', component: DashboardPageComponent},
   {path: 'artists', component: ArtistsPageComponent},
+  {path: '**', component: NotFoundPageComponent}
 ];
 
 @NgModule({
@@ -22,7 +24,8 @@ const appRoutes: Routes = [
     AppComponent,
     WelcomePageComponent,
     DashboardPageComponent,
-    ArtistsPageComponent
+    ArtistsPageComponent,
+    NotFoundPageComponent
   ],
   imports: [
     BrowserModule,

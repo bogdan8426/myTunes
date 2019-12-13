@@ -1,0 +1,13 @@
+{
+  "artist1": {
+    "name": "Post Malone",
+    "photo": "./posty.PNG",
+    "genre": "rap",
+    "albums": ["Stoney", "Hollywood`s bleeding", "Beerbongs and Bentleys"]},
+
+  "artist2": {
+    "name":"Eminem",
+    "photo": "./eminem.PNG",
+    "genre": "rap",
+    "albums": ["Encore", "Recovery", "Kamikaze"]}
+}

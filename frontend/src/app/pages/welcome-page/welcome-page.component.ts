@@ -10,6 +10,14 @@ export class WelcomePageComponent implements OnInit {
 
   constructor() {
     this.message = 'Welcome to myTunes!';
+
+    setTimeout(() => {
+      this.redirect('dashboard');
+    }, 3000);
+  }
+
+  redirect(to) {
+    window.location = to;
   }
 
   ngOnInit() {
