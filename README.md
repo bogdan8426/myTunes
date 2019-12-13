@@ -5,7 +5,6 @@ myTunes is a java based web application built as an open-source personal project
 * Java 8
 * Maven
 * Spring Boot - Web
-* Mongo DB
 * Adobe XD
 
 ## Contents
