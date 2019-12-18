@@ -7,7 +7,7 @@ public class HelloWebPage {
 
     @EventListener(ApplicationStartedEvent.class)
     public void hello(){
-        System.out.println("Hello web page!!");
+        System.out.println("Hello web pagess!!");
     }
 
 }
