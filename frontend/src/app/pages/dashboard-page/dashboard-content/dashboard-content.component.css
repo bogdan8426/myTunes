@@ -1,0 +1,20 @@
+.content-text{
+  font-size: 13px;
+  color: #7C7C7C;
+  margin-left: 60px;
+}
+
+.title-text{
+  font-size: 60px;
+  color: #7C7C7C;
+  margin-left: 60px;
+}
+
+.dashboard-container{
+  background-color: rgb(141,213,170);
+  border-radius: 35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}

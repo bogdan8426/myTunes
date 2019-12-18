@@ -1,0 +1,17 @@
+<div>
+  <app-navbar></app-navbar>
+</div>
+
+<div style="padding: 2rem 3rem">
+  <div class="dashboard-container">
+    <div class="title-text">Artists</div>
+    <div class="container-widget">
+      <app-widget
+        *ngFor="let widget of widgets; let i=index"
+        class="widget"
+        [widget]="widget">
+      </app-widget>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,90 @@
+{
+  "artists":{
+
+    "Post Malone": {
+      "name": "Post Malone",
+      "photo": "./assets/img/posty.svg",
+      "genre": "rap",
+      "albums": ["Stoney", "Hollywood`s bleeding", "Beerbongs and Bentleys"]},
+
+    "Eminem": {
+      "name":"Eminem",
+      "photo": "./assets/img/eminem.svg",
+      "genre": "rap",
+      "albums": ["Encore", "Recovery", "Kamikaze"]},
+
+    "Post M433alone": {
+        "name": "Post 432Malone",
+        "photo": "./assets/img/posty.svg",
+        "genre": "rap",
+        "albums": ["Stoney", "Hollywood`s bleeding", "Beerbongs and Bentleys"]},
+
+    "Emin123em": {
+        "name":"Emin322em",
+        "photo": "./assets/img/eminem.svg",
+        "genre": "rap",
+        "albums": ["Encore", "Recovery", "Kamikaze"]},
+
+    "P77ost Malone": {
+          "name": "Post 231Malone",
+          "photo": "./assets/img/posty.svg",
+          "genre": "rap",
+          "albums": ["Stoney", "Hollywood`s bleeding", "Beerbongs and Bentleys"]},
+
+    "Emi1nem": {
+          "name":"Emi432nem",
+          "photo": "./assets/img/eminem.svg",
+          "genre": "rap",
+          "albums": ["Encore", "Recovery", "Kamikaze"]},
+
+    "P3ost Malone": {
+            "name": "Po543st Malone",
+            "photo": "./assets/img/posty.svg",
+            "genre": "rap",
+            "albums": ["Stoney", "Hollywood`s bleeding", "Beerbongs and Bentleys"]},
+
+    "Em1inem": {
+            "name":"Emin321em",
+            "photo": "./assets/img/eminem.svg",
+            "genre": "rap",
+            "albums": ["Encore", "Recovery", "Kamikaze"]},
+
+    "Po4st Malone": {
+              "name": "Pos43252t Malone",
+              "photo": "./assets/img/posty.svg",
+              "genre": "rap",
+              "albums": ["Stoney", "Hollywood`s bleeding", "Beerbongs and Bentleys"]},
+
+    "Emin6em": {
+              "name":"Em43242inem",
+              "photo": "./assets/img/eminem.svg",
+              "genre": "rap",
+              "albums": ["Encore", "Recovery", "Kamikaze"]},
+
+    "Post Ma5lone": {
+                "name": "P234234ost Malone",
+                "photo": "./assets/img/posty.svg",
+                "genre": "rap",
+                "albums": ["Stoney", "Hollywood`s bleeding", "Beerbongs and Bentleys"]},
+
+    "Emi4nem": {
+                "name":"Emi23423nem",
+                "photo": "./assets/img/eminem.svg",
+                "genre": "rap",
+                "albums": ["Encore", "Recovery", "Kamikaze"]},
+
+    "Post M3alone": {
+                  "name": "P43242ost Malone",
+                  "photo": "./assets/img/posty.svg",
+                  "genre": "rap",
+                  "albums": ["Stoney", "Hollywood`s bleeding", "Beerbongs and Bentleys"]},
+
+    "Eminem2": {
+                  "name":"Emi12312nem",
+                  "photo": "./assets/img/eminem.svg",
+                  "genre": "rap",
+                  "albums": ["Encore", "Recovery", "Kamikaze"]}
+
+  }
+
+}
