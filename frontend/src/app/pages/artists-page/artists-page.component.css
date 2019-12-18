@@ -1,12 +1,12 @@
 .container-widget {
   display: flex;
   flex-wrap: wrap;
-  padding-right: 2rem;
+  padding-left: 50px;
 }
 
 .widget {
   display: flex;
-  flex-basis: 47%;
+  flex-basis: 25%;
   margin-bottom: 2.5rem;
   height: 297px;
 }
@@ -27,9 +27,10 @@
   font-size: 60px;
   color: #7C7C7C;
   margin-left: 60px;
+  margin-bottom: 20px;
 }
 
-.dashboard-container{
+.artists-container{
   background-color: rgb(141,213,170);
   border-radius: 35px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

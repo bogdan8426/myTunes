@@ -1,8 +1,9 @@
 package com.bogdanrotaru.myTunes.Controller;
 
-import com.bogdanrotaru.myTunes.Model.Song;
-import com.bogdanrotaru.myTunes.Service.SongService;
+import com.bogdanrotaru.myTunes.Model.Artist;
+import com.bogdanrotaru.myTunes.Service.ArtistService;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,15 +13,16 @@ import java.util.List;
 @EnableAutoConfiguration
 public class Controller {
 
-    private SongService songService;
+    private ArtistService artistService;
 
-    public Controller(SongService songService) {
-        this.songService = songService;
+    public Controller(ArtistService artistService) {
+        this.artistService = artistService;
     }
 
-    @RequestMapping("/")
-    public List<Song> getMySongs(){
-        return songService.getSongList();
+    @CrossOrigin
+    @RequestMapping("/artists")
+    public List<Artist> getMySongs(){
+        return artistService.getArtistList();
     }
 
 }
