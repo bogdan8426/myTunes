@@ -10,6 +10,11 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ToastrModule} from 'ngx-toastr';
 import {BsDatepickerModule} from 'ngx-bootstrap';
 import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
+import { DashboardContentComponent } from './pages/dashboard-page/dashboard-content/dashboard-content.component';
+import { NavbarComponent } from './pages/navbar/navbar.component';
+import { WidgetComponent } from './pages/artists-page/widget/widget.component';
+import {FetchService} from './services/fetch.service';
+import {HttpClientModule} from '@angular/common/http';
 
 const appRoutes: Routes = [
   {path: '', redirectTo: '/welcome', pathMatch: 'full'},
@@ -25,16 +30,20 @@ const appRoutes: Routes = [
     WelcomePageComponent,
     DashboardPageComponent,
     ArtistsPageComponent,
-    NotFoundPageComponent
+    NotFoundPageComponent,
+    DashboardContentComponent,
+    NavbarComponent,
+    WidgetComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
-    BsDatepickerModule.forRoot()
+    BsDatepickerModule.forRoot(),
+    HttpClientModule
   ],
-  providers: [],
+  providers: [FetchService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

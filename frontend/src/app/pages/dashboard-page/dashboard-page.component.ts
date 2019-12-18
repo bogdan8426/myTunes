@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {FakeBackendSimulator} from '../../helpers/fake-backend';
+import {backendUrl} from "../../constants";
+
 
 @Component({
   selector: 'app-dashboard-page',
@@ -8,11 +9,9 @@ import {FakeBackendSimulator} from '../../helpers/fake-backend';
 })
 export class DashboardPageComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
-    // tslint:disable-next-line:no-unused-expression
-    new FakeBackendSimulator();
   }
 
 }

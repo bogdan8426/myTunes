@@ -1,1 +1,16 @@
-<p>artists-page works!</p>
+<div>
+  <app-navbar></app-navbar>
+</div>
+
+<div style="padding: 2rem 3rem">
+  <div class="dashboard-container">
+    <div class="title-text">Artists</div>
+    <app-widget
+      *ngFor="let widget of widgets; let i=index"
+      class="widget container-widget"
+      [widget]="widget"
+    >
+    </app-widget>
+  </div>
+</div>
+
